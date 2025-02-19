@@ -1,0 +1,125 @@
+Script started on 2024-09-18 19:35:49-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?2004hhoffmann2@torres:homework-2$ clang -o rockpaperscissors rockpaperscissors.c
+[?2004l[?2004hhoffmann2@torres:homework-2$ ./rockpaperscissors
+[?2004lEnter the number of rounds to play: -1
+Invalid number of rounds. Please enter a positive number.
+Enter the number of rounds to play: 0
+Invalid number of rounds. Please enter a positive number.
+Enter the number of rounds to play: 1
+Current Score 
+Player: 0
+Computer: 0
+
+Round 1
+Rock = 1, Paper = 2, Scissors = 3
+Enter your choice as an integer (1, 2, or 3): -1
+Invalid choice. Enter an integer between 1 and 3: 0
+Invalid choice. Enter an integer between 1 and 3: 1
+Rock vs. Scissors...
+You win!
+Press enter to continue
+
+Final Score: 1 to 0
+You Won!!
+[?2004hhoffmann2@torres:homework-2$ ./rockpaperscissors
+[?2004lEnter the number of rounds to play: 3
+Current Score 
+Player: 0
+Computer: 0
+
+Round 1
+Rock = 1, Paper = 2, Scissors = 3
+Enter your choice as an integer (1, 2, or 3): 1
+Rock vs. Scissors...
+You win!
+Press enter to continue5 
+
+Current Score 
+Player: 1
+Computer: 0
+
+Round 2
+Rock = 1, Paper = 2, Scissors = 3
+Enter your choice as an integer (1, 2, or 3): 5
+Invalid choice. Enter an integer between 1 and 3: 2
+Paper vs. Scissors...
+Computer wins.
+Press enter to continue
+
+Current Score 
+Player: 1
+Computer: 1
+
+Round 3
+Rock = 1, Paper = 2, Scissors = 3
+Enter your choice as an integer (1, 2, or 3): 3
+Scissors vs. Scissors...
+It's a tie!
+Press enter to continue
+
+Final Score: 1 to 1
+It's a tied game!
+[?2004hhoffmann2@torres:homework-2$ ./rockpaperscissors
+[?2004lEnter the number of rounds to play: 5
+Current Score 
+Player: 0
+Computer: 0
+
+Round 1
+Rock = 1, Paper = 2, Scissors = 3
+Enter your choice as an integer (1, 2, or 3): 4
+Invalid choice. Enter an integer between 1 and 3: 3
+Scissors vs. Paper...
+You win!
+Press enter to continue
+
+Current Score 
+Player: 1
+Computer: 0
+
+Round 2
+Rock = 1, Paper = 2, Scissors = 3
+Enter your choice as an integer (1, 2, or 3): 3
+Scissors vs. Scissors...
+It's a tie!
+Press enter to continue
+
+Current Score 
+Player: 1
+Computer: 0
+
+Round 3
+Rock = 1, Paper = 2, Scissors = 3
+Enter your choice as an integer (1, 2, or 3): 3
+Scissors vs. Paper...
+You win!
+Press enter to continue
+
+Current Score 
+Player: 2
+Computer: 0
+
+Round 4
+Rock = 1, Paper = 2, Scissors = 3
+Enter your choice as an integer (1, 2, or 3): 1
+Rock vs. Scissors...
+You win!
+Press enter to continue
+
+Current Score 
+Player: 3
+Computer: 0
+
+Round 5
+Rock = 1, Paper = 2, Scissors = 3
+Enter your choice as an integer (1, 2, or 3): 1
+Rock vs. Scissors...
+You win!
+Press enter to continue
+
+Final Score: 4 to 0
+You Won!!
+[?2004hhoffmann2@torres:homework-2$ exit
+[?2004lexit
+
+Script done on 2024-09-18 19:38:05-05:00 [COMMAND_EXIT_CODE="0"]
